@@ -4,11 +4,11 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "009c9e65172e010890f7f65fde438006",
-"index.html": "a0f3c53a23d305bda244245476e05f8c",
-"/": "a0f3c53a23d305bda244245476e05f8c",
+"index.html": "b1be21ceda5bc8025eab176795e5461a",
+"/": "b1be21ceda5bc8025eab176795e5461a",
 "styles.css": "a22c7e228776315ab0439eaaa4c9d040",
-"main.dart.js": "b2c0de794498e4237bf9b605672989dc",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"main.dart.js": "c753aad157bd376fdd02b181af038bad",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "_config.yml": "d88166bbeaf9421921db9fb119080112",
 "icons/favicon-16x16.png": "7355000b0c8546ab6dd193a17df473bd",
 "icons/favicon.ico": "aef8ed0d1bf1246c9e747e2c524840a3",
@@ -39,10 +39,12 @@ const RESOURCES = {
 "icons/ms-icon-70x70.png": "4bd5eccf5cbcc4cb3c3daea303197e19",
 ".git/ORIG_HEAD": "dddf7c6e38a3ac63b61105429046bab9",
 ".git/config": "c17a0c3eff4207b415b39c3d4b216339",
+".git/objects/61/37e8e3963a7bd3a130f5de1f312f35d37ed1e2": "c0039762d0296f7f6c5e3eea6c5d36e9",
 ".git/objects/0d/0df08f7c3e147a8ae36017cf81a96e35b73717": "106e868f28a72727fb6fb0fa71123633",
 ".git/objects/59/942b055c19abbcfd15bccc252b02c1126b7c87": "6ade9d33e096380e4c1805872683ee73",
 ".git/objects/59/62efb2dffef4c259bda261b128fcab4b659c34": "11e1a7683fedc73b6a0da57ee3c6a112",
 ".git/objects/57/eb10e126df62391304a6f335b2da36c44f9272": "1734500768f32bca13c82f80418b5201",
+".git/objects/03/7314aa1ef96125b3ce8d0cea1874482b8bbe76": "81f07bfc176440e24f9feb93a9b497cd",
 ".git/objects/9e/180d147f83c7852dd1fc9c0d44bd365337b83b": "86ffcb4ef518f6c48215f5e0cb6e4dd4",
 ".git/objects/32/1e8118e95d4ce741a857965377f7e61aa3adba": "19d561c58e0e881f0eb657b609928480",
 ".git/objects/56/f793ed937dc8085763b8d7199a3e924bf00729": "2c0ce0878b85bdc92eab1f7b9638c82c",
@@ -91,6 +93,7 @@ const RESOURCES = {
 ".git/objects/96/35ff67f05b8f3fa9af09d3d8f359899fae1807": "05fde03a1e3437e2e64be1a8c221dc7c",
 ".git/objects/54/351ccde34326f771c7fa737fe7b9cd7ec49270": "2ef2aab0823475df61b38533861448f3",
 ".git/objects/54/83a796918d1be65b0d011bf5ca6ad0bc2ad178": "20b744e6e3da15b90bc14a8d40d214b2",
+".git/objects/5b/42b4c39ce8fe4a7b85accd4854ffdd3a96b757": "2f1d47c4cb2ff7364b69c74ce9e3df55",
 ".git/objects/08/f05e522e9a271c73c34e39c2a07a62512987a4": "22a75e0a015e424c26fc00c5c7bf20b1",
 ".git/objects/01/23897b6c9ece8fe0f87a9ab6502dc0e92186e2": "3c499f7b7d5c3c6703fd069226072f28",
 ".git/objects/6c/364e3ad3f5a46e746084030a949c52db030840": "c697a1bd15c6c79986d9cc8dea734553",
@@ -98,6 +101,7 @@ const RESOURCES = {
 ".git/objects/bf/827ce32a1cdba8ea17150606e45d1055dae8ce": "7f7c17e7acce559cd790a8685d73b158",
 ".git/objects/b8/b7f55561ae81927ba0d823cc71af624ff39497": "c8223baba8a4519a5dc40dac83736565",
 ".git/objects/dc/ecfd25eec2c71ec9f18f189a06f67d203c22de": "7cd14dc5ff58d4452871a97c6a6c12c7",
+".git/objects/d5/8fab468e372f2f7ce2c7809186b03b1fe644a2": "5c367d599feaaec0268dff858ac480ed",
 ".git/objects/d2/5095b300c4a94b563651fbe95b27c9076af4ce": "490481e2e2683412705c5ea124c32cea",
 ".git/objects/b7/49bfef07473333cf1dd31e9eed89862a5d52aa": "36b4020dca303986cad10924774fb5dc",
 ".git/objects/a8/7aa975fe67ca97777e3e0bf4438cf1cb40e0f7": "4f08b299a124bc01f9504df143b59236",
@@ -107,6 +111,7 @@ const RESOURCES = {
 ".git/objects/b9/2a0d854da9a8f73216c4a0ef07a0f0a44e4373": "f62d1eb7f51165e2a6d2ef1921f976f3",
 ".git/objects/a1/3837a12450aceaa5c8e807c32e781831d67a8f": "bfe4910ea01eb3d69e9520c3b42a0adf",
 ".git/objects/cd/22076013ce8b84475eae9bb4cd6c60b5460fbe": "81c620e2d6cbe5638d6c90ee25886389",
+".git/objects/e6/4f53c753645796717cfa91d73af0746e27b541": "7c81fcea269076fbd9a9ba270827b27f",
 ".git/objects/ff/dd44e0d1ff90b904a16cf2452005089c07c600": "689857513765a520f4fb808aa2ff88a5",
 ".git/objects/c5/541482230075d4b4800ebbb7ac42fad29e5133": "2dbef2c7d7d4a340f138a10876c31d29",
 ".git/objects/e9/e575d0b36ebd696294496017834c26b62e1505": "8eca52e53d59927cc7c00a13888ea67b",
@@ -124,9 +129,9 @@ const RESOURCES = {
 ".git/objects/13/be9ef0ce2325ef78a4df5f6610162637de932a": "40d531c5c67fe574ef9f2f10736cc9e9",
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "eba09be175e6cf86612fb1afc367d8c2",
-".git/logs/refs/heads/master": "eba09be175e6cf86612fb1afc367d8c2",
-".git/logs/refs/remotes/origin/master": "364c6b04ca69f5922aec639e6e5874b3",
+".git/logs/HEAD": "14765b20c1bc1fb417fc828840a006b7",
+".git/logs/refs/heads/master": "14765b20c1bc1fb417fc828840a006b7",
+".git/logs/refs/remotes/origin/master": "9a7935c8de6539672e4a72ac2472adac",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
@@ -141,15 +146,16 @@ const RESOURCES = {
 ".git/hooks/pre-push.sample": "2c642152299a94e05ea26eae11993b13",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
-".git/refs/heads/master": "cce9bac350b00eb45535cdb0bb0ebd05",
-".git/refs/remotes/origin/master": "cce9bac350b00eb45535cdb0bb0ebd05",
-".git/index": "ab9c268681087d683cb0b75efb7f78de",
+".git/refs/heads/master": "66a4be30d3991c2a06978cb5eb30588c",
+".git/refs/remotes/origin/master": "66a4be30d3991c2a06978cb5eb30588c",
+".git/index": "9b1d0330a13f899ad92af3b4556a5db3",
 ".git/COMMIT_EDITMSG": "af5cb0facdebbeabe1f46fed12d84a88",
 ".git/FETCH_HEAD": "4e5fce43cd1e8e52ad95e55167e91c0f",
 "assets/AssetManifest.json": "447f0adb05ff3dca54718cdb350dbdab",
-"assets/NOTICES": "52cff4a641f5787a733834452b823970",
+"assets/NOTICES": "c10793ca8428976b0e037911a8f53354",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/shaders/ink_sparkle.frag": "34f85d56677f337a372147e0590a5b6f",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/the-launcher.png": "7787fedcad1d55a6d48d4b2688db8f97",
 "assets/assets/me.png": "b824fc7cb63dce8a4aa43e13bc9cc04e",
@@ -161,10 +167,10 @@ const RESOURCES = {
 "assets/assets/mapventure.png": "67420b7e4f746ca93bede51df141a86a",
 "assets/assets/neumorphism.png": "2777152ea3595e05e15037123a6ee05d",
 "assets/assets/linkedin.svg": "5b238434e2862c877f08572b96c0ef7b",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -172,7 +178,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -271,9 +276,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
